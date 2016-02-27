@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+
+
+<html class="no-js" lang="en"><head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Airbnb - Change password</title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />
+
+
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/font-awesome.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/style.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/main.css' %}" />
+
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/main-responsive.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/all.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap-colorpalette.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/perfect-scrollbar.css' %}" />
+
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/theme_light.css' %}" id="skin_color" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/print.css' %}" media="print" />
+
+    <script src="{% static 'app/scripts/modernizr-2.6.2.js' %}"></script>
+</head>
+
+<body class="login example2">  
+
+    <div class="main-login col-sm-4 col-sm-offset-4">
+{% block content %}{% endblock %}
+    </div>
+
+    <script src="{% static 'app/scripts/jquery-1.10.2.js' %}"></script>
+    <script src="{% static 'app/scripts/bootstrap.js' %}"></script>
+    <script src="{% static 'app/scripts/respond.js' %}"></script>
+
+    <script src="{% static 'app/scripts/jquery_004.js' %}"></script>
+    <script src="{% static 'app/scripts/jquery-ui-1' %}"></script>
+    <script src="{% static 'app/scripts/bootstrap-hover-dropdown.js' %}"></script>
+    <script src="{% static 'app/scripts/jquery_002.js' %}"></script>
+    <script src="{% static 'app/scripts/jquery.js' %}"></script>
+    <script src="{% static 'app/scripts/jquery_005.js' %}"></script>
+
+        <script src="{% static 'app/scripts/perfect-scrollbar.js' %}"></script>
+        <script src="{% static 'app/scripts/less-1.js' %}"></script>
+
+    <script src="{% static 'app/scripts/jquery_003.js' %}"></script>
+    <script src="{% static 'app/scripts/bootstrap-colorpalette.js' %}"></script>
+    <script src="{% static 'app/scripts/main.js' %}"></script>
+
+    <script src="{% static 'app/scripts/jquery_006.js' %}"></script>
+    <script src="{% static 'app/scripts/login.js' %}"></script>
+{% block scripts %}{% endblock %}
+
+</body>
+</html>
